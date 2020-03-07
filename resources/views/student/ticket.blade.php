@@ -28,7 +28,7 @@
 					<td>{{$tickets->created_at}}</td>
 					<td>{{$tickets->state}}</td>
 					<td>{{$tickets->type}}</td>
-					</tr>
+					
 					@endforeach
 				
 				

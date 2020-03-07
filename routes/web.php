@@ -11,7 +11,8 @@
 |
 */
 
- 
+use RealRashid\SweetAlert\Facades\Alert;
+
 
 Auth::routes();
 
@@ -20,6 +21,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/ticket', 'ticketController@index');
 Route::post('/ticket', 'ticketController@stor')->name('ticket');
 
-// how to dip table in html
-//how to ins to database from html
-//how to login and remov reg ....... diaple
+Route::post('/feedback', 'feedbackController@stor')->name('feedback');
